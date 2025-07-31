@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first HTML file</title>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
     <main>
         <!------Welcome Section------>
         <section>
-            <h1>Welcome to my first web projet</h1>
-            <p>This is my first web projet! where you can find images and videos
-                if you want to have fun for a while B)
-            </p>
-            <p>Santiago Neira</p>
+            <div class="estilo_tituloP">
+                <h1>Welcome to my first web projet</h1>
+                <p class="estilo_parrafosP">This is my first web projet! where you can find images and videos
+                    if you want to have fun for a while B)
+                </p>
+                <p>Santiago Neira</p>
+            </div>
         </section>
 
         <!------Image Section------>
@@ -25,7 +29,7 @@
                 <img src="./images/ardilla.jfif" alt="ardilla">
                 <figcaption> an ardilla image</figcaption>
             </figure>
-        
+
 
             <figure>
                 <img src="./images/bear.jfif" alt="ardilla">
@@ -59,16 +63,21 @@
             <h3> Funny videos </h3>
             <figure>
                 <video controls preload="auto">
-                    <source src="./videos/Video1.mp4"/>
+                    <source src="./videos/Video1.mp4" />
                 </video>
             </figure>
 
             <figure>
                 <video controls preload="auto">
-                    <source src="./videos/Video2.mp4"/>
+                    <source src="./videos/Video2.mp4" />
                 </video>
             </figure>
 
+            <figure>
+                <video controls preload="auto">
+                    <source src="./videos/Video3.mp4" />
+                </video>
+            </figure>
         </section>
 
 
